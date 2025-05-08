@@ -65,7 +65,7 @@ function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="font-bold">Our Office</h4>
-                                    <p>MSV Infotech Pvt. Ltd.<br />123 Financial District<br />Mumbai, Maharashtra<br />India</p>
+                                    <p>INFINIUM Finance Solution<br />123 Financial District<br />Ahmedabad, Gujarat<br />India</p>
                                 </div>
                             </div>
 
