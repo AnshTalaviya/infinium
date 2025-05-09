@@ -3,17 +3,17 @@ import { Facebook, Twitter, Instagram, Linkedin, Phone, Mail, Clock, MapPin } fr
 
 const Footer = () => {
     return (
-        <footer className="bg-teal-900 text-white pt-16 pb-6">
+        <footer className="bg-[#003b3b] text-white -mt-12 pt-16 pb-6">
             <div className="container mx-auto px-4">
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12  ">
                     <div>
-                        <h3 className='text-xl font-bold mb-6 flex items-center'>
+                        <h3 className='text-2xl font-bold mb-6 flex items-center'>
                             <div className='foot-bg bg-bold bg-gold text-white p-1 rounded mr-2 transform rotate-12'>
                                 <span className='text-sm font-bold my-2'>IFS</span>
                             </div>
                             Infinium Finance <br /> Solutions
                         </h3>
-                        <p className="text-white-100 mb-4">
+                        <p className="text-white-100 text-xl mt-4 mb-4">
                             A forward-thinking investment solutions company dedicated to offering secure, structured, and profitable financial growth plans.
                         </p>
                         <div className="flex space-x-4">
@@ -33,7 +33,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <h3 className="text-xl font-bold mb-6 border-b border-white/10 pb-2 ">Quick Links</h3>
+                        <h3 className="text-2xl font-bold mb-6 border-b border-white/10 pb-2 ">Quick Links</h3>
                         <ul className="space-y-3 text-lg">
                             {[
                                 { label: "Home", href: "#" },
@@ -64,7 +64,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <h3 className="text-xl font-bold mb-6 border-b border-white/10 pb-2">Legal</h3>
+                        <h3 className="text-2xl font-bold mb-6 border-b border-white/10 pb-2">Legal</h3>
                         <ul className="space-y-3 text-lg ">
                             {[
                                 { label: "Terms & Conditions", href: "#" },
@@ -93,7 +93,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <h3 className="text-xl font-bold mb-6 border-b border-white/10 pb-2">Contact Us</h3>
+                        <h3 className="text-2xl font-bold mb-6 border-b border-white/10 pb-2">Contact Us</h3>
                         <ul className="space-y-4 text-lg">
                             <li className="flex items-start">
                                 <MapPin size={16} className="mr-2 mt-1 text-yellow-400" />
@@ -119,11 +119,11 @@ const Footer = () => {
                 </div>
 
                 <div className="border-t border-teal-800 pt-8 py-6 text-center text-white-900 text-lg">
-                    <p className="flex justify-center items-center">
+                    <p className="flex justify-center items-center text-xl">
                         © 2025 Infinium Finance Solutions Ltd. All rights reserved.
                     </p>
-                    <p className="flex justify-center items-center text-white/60 mt-2">
-                        Designed and developed with ❤ for secure financial growth
+                    <p className="flex justify-center items-center text-white/60 mt-3">
+                        Designed and developed with ❤️ for secure financial growth
                     </p>
                 </div>
             </div>
