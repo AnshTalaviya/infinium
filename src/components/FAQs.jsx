@@ -14,7 +14,7 @@ function FAQs() {
         {
             id: 'panel1',
             question: 'What is the minimum investment amount?',
-            answer: 'The minimum investment amount with MSV Infotech is ₹10,000. There is no upper limit, allowing you to invest according to your financial capacity and goals.'
+            answer: 'The minimum investment amount with INFINIUM Finance Solution is ₹10,000. There is no upper limit, allowing you to invest according to your financial capacity and goals.'
         },
         {
             id: 'panel2',
@@ -29,7 +29,7 @@ function FAQs() {
         {
             id: 'panel4',
             question: 'How secure is my investment?',
-            answer: 'At MSV Infotech, security is our top priority. Our investment plans are designed to be risk-free with a fixed return ratio. We maintain strict compliance with all regulatory requirements and employ robust security measures to protect your investments.'
+            answer: 'At INFINIUM Finance Solution, security is our top priority. Our investment plans are designed to be risk-free with a fixed return ratio. We maintain strict compliance with all regulatory requirements and employ robust security measures to protect your investments.'
         },
         {
             id: 'panel5',
@@ -49,7 +49,7 @@ function FAQs() {
         {
             id: 'panel8',
             question: 'How are the returns taxed?',
-            answer: 'The tax implications of your investment returns depend on your individual tax situation and applicable tax laws. We recommend consulting with a tax professional regarding your specific circumstances. MSV Infotech provides all necessary documentation for tax filing purposes.'
+            answer: 'The tax implications of your investment returns depend on your individual tax situation and applicable tax laws. We recommend consulting with a tax professional regarding your specific circumstances. INFINIUM Finance Solution provides all necessary documentation for tax filing purposes.'
         },
         {
             id: 'panel9',
@@ -68,7 +68,7 @@ function FAQs() {
             <section className="bg-teal-900 text-white py-20 px-4 text-center">
                 <h1 className="text-5xl font-bold mb-4">Frequently Asked Questions</h1>
                 <p className="text-lg max-w-2xl mx-auto">
-                    Find answers to common questions about MSV Infotech's investment plans, processes, and services.
+                    Find answers to common questions about INFINIUM Finance Solution's investment plans, processes, and services.
                 </p>
             </section>
             <section className='pattern-dots' style={{ padding: "20px 0 45px" }}>

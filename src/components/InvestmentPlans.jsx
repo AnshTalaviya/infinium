@@ -177,7 +177,7 @@ function InvestmentPlans() {
             <section className="pattern-dots px-4 pt-14 pb-16">
                 <h2 className="text-4xl font-bold text-teal-900 text-center mb-6">Our Investment Solutions</h2>
                 <p className="text-center text-gray-600 max-w-xl mx-auto mb-10">
-                    At MSV Infotech, we offer carefully designed investment plans that provide security, growth, and family benefits.
+                    At INFINIUM Finance Solution, we offer carefully designed investment plans that provide security, growth, and family benefits.
                 </p>
                 <div className="grid mx-10 sm:grid-cols-1 md:grid-cols-3">
                     {plans.map((plan, idx) => (
@@ -305,7 +305,7 @@ function InvestmentPlans() {
                     Calculate Your Returns
                     </h2>
                     <p className="text-gray-600 mb-8">
-                    Use our investment calculator to see how your money can grow with MSV Infotech's quarterly compounding model.
+                    Use our investment calculator to see how your money can grow with INFINIUM Finance Solution's quarterly compounding model.
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center gap-4">
                         <Link to={"/calculator"} className="border hover:scale-105 hover:bg-teal-800 px-6 py-2 rounded-md font-semibold bg-teal-900 text-white transition inline-flex items-center justify-center gap-2">

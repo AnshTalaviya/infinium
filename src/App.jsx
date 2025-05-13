@@ -6,6 +6,7 @@ import InvestmentPlans from './components/InvestmentPlans'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import AboutUs from './components/AboutUs'
+import TermsAndConditions from './components/TermsAndConditions'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/plans" element={<InvestmentPlans />} />
             <Route path="/about" element={<AboutUs />} />
+            <Route path="/terms" element={<TermsAndConditions />} />
           </Routes>
           <Footer />
         </BrowserRouter>
